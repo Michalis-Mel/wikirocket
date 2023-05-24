@@ -22,7 +22,7 @@ export default function Item({ result }: Props) {
   );
 
   const content = result?.thumbnail?.source ? (
-    <article className="m-4 max-w-xl">
+    <article className="m-4 max-w-full">
       <div className="flex flex-row gap-4">
         <div className="flex flex-col justify-center">
           <Image
